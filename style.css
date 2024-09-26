@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: #222831;
-    --primary-color: #DDDDDD;
+    --bg-color: #f322d0;
+    --primary-color: #0cbd15;
     --secondary-color: #F05454;
     --font: "Nunito Sans", sans-serif;
 }
@@ -67,6 +67,11 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+}
     color: var(--bg-color);
     width: 100%;
     height: 3rem;
